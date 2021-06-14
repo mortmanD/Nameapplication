@@ -77,7 +77,8 @@ section .title{
     text-align: left;
     justify-content: center;
     float: right;
-    color: blue;        
+    color: blue;
+    height: 100%;        
 }
     .home form{
         box-sizing: border-box;
@@ -85,8 +86,9 @@ section .title{
         border-width: 2px;
         border-style: solid;   
         width: 100%;
+        padding: 70px;
         height: 100%;
-        
+              
         
       }
       .about{
