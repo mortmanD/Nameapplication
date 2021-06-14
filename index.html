@@ -17,7 +17,7 @@
             <div class="collapse navbar-collapse justify-content-start" id="nav">
                 <ul class="nav nav-bar">
                     <li class="navbrand">
-                        <a class="nav-link" href="#!">Name_<span>Application</span></a>
+                        <a class="nav-link" href="#home">Name_<span>Application</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">Home</a>
@@ -51,15 +51,18 @@
                 <div class="form">
                     <form>
                         <label for="Date of birth">Date of Birth:</label><br>
-                        <input type="text" id="DOB" name="DOB" placeholder="DD/MM/CCYY"><br>
+                        <input type="date" id="DOB" name="DOB" placeholder="DD/MM/CCYY"><br>
                         <input type="radio" id="male" name="gender" value="male">
                         <label for="male">Male</label><br>
                         <input type="radio" id="female" name="gender" value="female">
                         <label for="female">Female</label><br>
                         <input type="radio" id="other" name="gender" value="other">
                         <label for="other">Other</label><br>
-                        <input type="submit" value="Submit">
+                        <button type="submit" onclick="nameGenerator();">Submit</button>
                     </form>
+                </div>
+                <div class="nameoutput">
+                    <p id="nameoutput"> <strong>Your Akan Name Should be </strong>
                 </div>
 
             </column>
