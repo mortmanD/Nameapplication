@@ -23,3 +23,61 @@
     padding:15px;
     height: auto;
 }
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.home{
+    background-image:url("https://abcofparenting.com/wp-content/uploads/2020/04/Free-Baby-Name-Generator-Numerology-Calculator.jpeg") ;
+    background-repeat: no-repeat;
+    background-position-x:left;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    display: flex;     
+    height: 100px;
+    color:red;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.home .max-width{
+    width: 100%;
+    
+  }
+  .home .max-width .row{
+    margin-right: 0;
+  }
+  .home .home-content .text-1{
+    font-size: 35px;
+    text-decoration: yellow;
+    font-style: oblique;
+    padding-top: 30px;
+}
+.home .intro{
+    width:50%;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    padding-top: 25px;      
+}
+    .home .calculator{
+        width:50%;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        float: right;
+        color: blue;        
+    }
+    .home form{
+        box-sizing: border-box;
+        border-color: crimson;
+        border-width: 2px;
+        border-style: solid;   
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        
+      }
+      
