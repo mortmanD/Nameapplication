@@ -28,6 +28,15 @@
     padding: 0 80px;
     margin: auto;
 }
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    font-family: 'Ubuntu', sans-serif;
+}
 .home{
     background-image:url("https://abcofparenting.com/wp-content/uploads/2020/04/Free-Baby-Name-Generator-Numerology-Calculator.jpeg") ;
     background-repeat: no-repeat;
@@ -62,22 +71,22 @@
     float: left;
     padding-top: 25px;      
 }
-    .home .calculator{
-        width:50%;
-        display: flex;
-        text-align: left;
-        justify-content: center;
-        float: right;
-        color: blue;        
-    }
+.home .calculator{
+    width:50%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    float: right;
+    color: blue;        
+}
     .home form{
         box-sizing: border-box;
         border-color: crimson;
         border-width: 2px;
         border-style: solid;   
         width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
+        height: 100%;
+        
         
       }
       .about{
@@ -89,7 +98,7 @@
       float: left;
   }
   .about .about-content .left img{
-      height: 400px;
+      height: 410px;
       width: 250px;
       object-fit: cover;
       border-radius: 6px;
@@ -112,7 +121,20 @@
   .about table{
     width: 100%;
     border-collapse: collapse;
+    padding: 20px;
 }
 .about th, td {
-    border: 1px solid black;
+    border: 1px dotted black;
+    
   }
+  .background .background-content .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.background .background-content p{
+    text-align: left;
+}
+
+     
