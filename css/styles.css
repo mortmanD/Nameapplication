@@ -136,5 +136,18 @@ section .title{
 .background .background-content p{
     text-align: left;
 }
+footer{
+    background:#563d7c;
+    padding: 15px 23px;
+    color: white;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
 
      

@@ -1,3 +1,0 @@
-<scipt>
-    
-</scipt>
