@@ -80,4 +80,31 @@
         margin: 8px 0;
         
       }
+      .about{
+        text-align: center;
+        justify-content: center;
+    }
+    .about .about-content .left{
+      width: 25%;
+      float: left;
+  }
+  .about .about-content .left img{
+      height: 400px;
+      width: 250px;
+      object-fit: cover;
+      border-radius: 6px;
+  }
+  .about .about-content .right{
+      width: 75%;
+      float: right;
+  }
+  .about .about-content .right .text{
+      font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 10px;
+  }
+  .about .about-content .right p{
+      text-align: left;
       
+      
+  }
