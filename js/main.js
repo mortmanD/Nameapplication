@@ -4,6 +4,10 @@ var maleNames = ["Kwasi", "Kwadwo",  "Kwabena", "Kwaku", "Yaw", "Kofi",  "Kwame"
 var femaleNames = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama",];
 var dob=document.getElementById("dob").value;
 var gender=document.getElementById("gender").value;
+if (gender==null || gender==""){  
+    alert("Check your gender");  
+    return false;  
+}
 
 
 }
