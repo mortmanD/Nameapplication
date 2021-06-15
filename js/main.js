@@ -8,6 +8,9 @@ if (gender==null || gender==""){
     alert("Check your gender");  
     return false;  
 }
-
+if (dob==null || dob==""){  
+    alert("Dob cant be blank");  
+    return false;  
+}
 
 }
