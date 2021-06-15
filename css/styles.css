@@ -105,6 +105,12 @@ section .title{
           padding-top: 15px;
 
       }
+      .calculator p{
+          color:black;
+          font-size: 1.em;
+          font-family: fantasy;
+          font-style: oblique;
+      }
       .about{
         text-align: center;
         justify-content: center;

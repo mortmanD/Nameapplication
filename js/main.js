@@ -3,21 +3,21 @@ let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 function nameGenerator(){
     event.preventDefault();
-    let gender = document.getElementById('gender').value; 
-    let date = document.getElementById('date').value;
+    var gender = document.getElementById('gender').value; 
+    var date = document.getElementById('date').value;
     date = new Date(date);
-
-    if (gender === 'male'){
-        document.getElementById("output").innerHTML =(" Since you were born on " + daysOfWeek[date.getDay()] + ',' + " your Akan name is " + maleNames[date.getDay()]);
-        
     
+    if (gender === 'male'&& date !=="null") {
+        document.getElementById("output").innerHTML =(" Because your son was born on " + daysOfWeek[date.getDay()] + ',' + " his Akan name should be " + maleNames[date.getDay()]);
+   
     }
-    else if (gender === 'female'){
-        document.getElementById("output").innerHTML =(" Since you were born on " + daysOfWeek[date.getDay()] + ',' + " your Akan name is " + femaleNames[date.getDay()]);
+    else if (gender === 'female'&& date!=="null" ){
+        document.getElementById("output").innerHTML =(" Because your daughter was born on  " + daysOfWeek[date.getDay()] + ',' + " her Akan name should be  " + femaleNames[date.getDay()]);
        
     }
+    
     else{
-        document.getElementById("output").innerHTML =("Error: Ensure you input the date in correct format and the gender is selected");''
+        document.getElementById("output").innerHTML =("Error: Ensure you input the date in correct format and the gender is selected");
     }
 }
 
