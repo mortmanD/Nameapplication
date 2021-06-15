@@ -49,21 +49,20 @@
             </column>
             <column class="calculator" id="calculator">
                 <div class="form">
-                    <form>
-                        <label for="Date of birth">Date of Birth:</label><br>
-                        <input type="text" id="dob" name="dob" placeholder="DD/MM/CCYY"><br>
-                        <span class="errorIf" id="errorIf"></span>
-                        <input type="radio" id="male" name="gender" value="male">
-                        <label for="male">Male</label><br>
-                        <input type="radio" id="female" name="gender" value="female">
-                        <label for="female">Female</label><br>
-                        <input type="radio" id="other" name="gender" value="other">
-                        <label for="other">Other</label><br>
-                        <button type="submit" onclick="nameGenerator();">Submit</button>
-                        <div class="nameoutput">
-                            <p id="nameoutput"> </strong>
-                        </div>
-                    </form>
+                    <form id="regForm" action="js/main.js" method="POST">
+                    <label>Date of Birth:</label>
+                    <input type="date" name="date" placeholder="DD/MM/yyyy" id="date" required><br>
+                    <label>Gender:</label>
+                    <select class="gender" id="gender">
+                    <option value="select">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                            </select><br>
+                            <button type="submit" onclick="nameGenerator()">submit</button>
+                        </form>
+                        <div class="theOutput">
+                        <h4>Generated Name:</h4>
+                        <p id="output"></p>
                 </div>
                 
             </column>
@@ -158,3 +157,4 @@
 </body>
 
 </html>
+
