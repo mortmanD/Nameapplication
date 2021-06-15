@@ -103,6 +103,7 @@ section .title{
       }
       .calculator label{
           padding-top: 15px;
+          color: black;
 
       }
       .calculator p{
